@@ -1,0 +1,23 @@
+{
+  "name": "support-ticket-system",
+  "version": "1.0.0",
+  "description": "A microservice for managing customer support tickets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "socket.io": "^4.7.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "Siddharth Kundarapu",
+  "license": "ISC"
+}
